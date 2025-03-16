@@ -6,9 +6,9 @@
     }
 
     int sum = 0;
-    foreach (var number in numbers)
+    for (int i = 0; i < numbers.Length; i++)
     {
-        sum += number;
+        sum += numbers[i];
     }
 
     return (double)sum / numbers.Length;
